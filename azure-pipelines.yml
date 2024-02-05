@@ -134,7 +134,7 @@ stages:
   - deployment: Deploy
     pool:
       vmImage: 'ubuntu-20.04'
-    environment: staging
+    environment: préproduction
     variables:
     - group: 'Release'
     strategy:
